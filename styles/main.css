@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Prompt;
+  src: url(../src/assets/fonts/Prompt/Prompt-Regular.ttf);
+}
+@font-face {
+  font-family: Prompt-ExtraBold;
+  src: url(../src/assets/fonts/Prompt/Prompt-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Prompt-SemiBold;
+  src: url(../src/assets/fonts/Prompt/Prompt-SemiBold.ttf);
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #a8a8a8;
+
+  /* color-scheme: light dark; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Prompt, system-ui, -apple-system;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+    opacity: .9;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+.semi-bold {
+    font-family: Prompt-SemiBold;
+}
+
+.t-small {
+    font-size: 1rem;
+}
+.t-large {
+    font-size: 1.5rem;
+}
+.t-xlarge {
+    font-size: 2rem;
+}
+.t-xxlarge {
+    font-size: 3rem;
+}
+
+.pad-1 {
+    padding: 1rem;
+}
+
+.pad-15 {
+    padding: 1.5rem;
+}
+
+.pad-2 {
+    padding: 2rem;
+}
+
+.pad-25 {
+    padding: 2.5rem;
+}
+
+.pad-3 {
+    padding: 3rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}

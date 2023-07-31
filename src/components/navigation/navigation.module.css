@@ -1,0 +1,13 @@
+.nav_container {
+    width: 100%;
+    padding: 1rem 3rem 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid var(--secondary-color);
+}
+
+.icon_container {
+    align-items: center;
+    justify-content: center;
+}
+
