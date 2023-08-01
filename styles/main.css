@@ -2,13 +2,25 @@
   font-family: Prompt;
   src: url(../src/assets/fonts/Prompt/Prompt-Regular.ttf);
 }
+
+@font-face {
+    font-family: Prompt-Light;
+    src: url(../src/assets/fonts/Prompt/Prompt-Light.ttf);
+}
+
+@font-face {
+    font-family: Prompt-Medium;
+    src: url(../src/assets/fonts/Prompt/Prompt-Medium.ttf);
+}
+
+@font-face {
+    font-family: Prompt-Bold;
+    src: url(../src/assets/fonts/Prompt/Prompt-Bold.ttf);
+}
+
 @font-face {
   font-family: Prompt-ExtraBold;
   src: url(../src/assets/fonts/Prompt/Prompt-ExtraBold.ttf);
-}
-@font-face {
-  font-family: Prompt-SemiBold;
-  src: url(../src/assets/fonts/Prompt/Prompt-SemiBold.ttf);
 }
 
 :root {
@@ -41,16 +53,32 @@ a:hover {
     opacity: .9;
 }
 
+img {
+ box-sizing: border-box;
+}
+
 .flex {
     display: flex;
 }
 
+.f-column {
+    flex-direction: column;
+}
+
 .container {
-    padding: 1.5rem;
+    padding-inline: 3.5rem;
 }
 
 .semi-bold {
     font-family: Prompt-SemiBold;
+}
+
+.bold {
+    font-family: Prompt-Bold;
+}
+
+.medium {
+    font-family: Prompt-Medium;
 }
 
 .t-small {
@@ -86,10 +114,42 @@ a:hover {
     padding: 3rem;
 }
 
+.mt-1 {
+    margin-top: 1;
+}
+
+.pad-block-1 {
+    padding-block: 1rem;
+}
+
+.pad-block-1 {
+    padding-block: 1rem;
+}
+
+.pad-block-2 {
+    padding-block: 2rem;
+}
+
+.pad-inline-1 {
+    padding-inline: 1rem;
+}
+
+.pad-inline-2 {
+    padding-inline: 2rem;
+}
+
 .gap-1 {
     gap: 1rem;
 }
 
+.gap-15 {
+    gap: 1.5rem;
+}
+
 .gap-2 {
     gap: 2rem;
+}
+
+.fw-600 {
+    font-weight: 700;
 }

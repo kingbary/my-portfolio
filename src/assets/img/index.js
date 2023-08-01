@@ -1,0 +1,1 @@
+import pic from './display-pic.jpg'; export const displayPic = `${pic}#img`;
