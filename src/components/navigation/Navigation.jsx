@@ -23,7 +23,7 @@ function Navigation() {
           alt="Kingsley Akwa's Logo"
           className={styles.logoIcon}
         />
-        <div className={`flex gap-2 ${styles.icon_container}`}>
+        <div className={`flex ${styles.icon_container}`}>
           <Link to={`mailto:${emailLink}`} title="hello@kingsleyakwa.tech">
             <img src={emailIcon} alt="email-icon" />
           </Link>
@@ -36,7 +36,7 @@ function Navigation() {
         </div>
         <Link
           to={resumeLink}
-          className="medium t-large"
+          className="t-large"
           target="_blank"
           title="View my Resume"
         >

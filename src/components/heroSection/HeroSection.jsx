@@ -5,7 +5,7 @@ import styles from "./heroSection.module.css"
 function HeroSection() {
   return (
     <section className="pad-block-2">
-      <div className="flex container gap-15">
+      <div className={`flex container gap-15 ${styles.section_container}`}>
         <div>
           <div className={styles.img_container}>
             <img src={displayPic} alt="" />
@@ -13,7 +13,7 @@ function HeroSection() {
           <h3 className={styles.name}>Kingsley Akwa</h3>
         </div>
         <div className={`flex f-column ${styles.hero_content}`}>
-          <p className={styles.text_container}>
+          <p>
             Skilled and motivated Front-End Engineer with a strong focus on
             ReactJS. I'm passionate about creating dynamic and intruitive user
             interfaces.

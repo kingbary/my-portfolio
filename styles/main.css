@@ -66,7 +66,7 @@ img {
 }
 
 .container {
-    padding-inline: 3.5rem;
+    padding-inline: 5rem;
 }
 
 .semi-bold {
@@ -77,7 +77,7 @@ img {
     font-family: Prompt-Bold;
 }
 
-.medium {
+.t-medium {
     font-family: Prompt-Medium;
 }
 
@@ -85,7 +85,7 @@ img {
     font-size: 1rem;
 }
 .t-large {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
 }
 .t-xlarge {
     font-size: 2rem;
@@ -152,4 +152,10 @@ img {
 
 .fw-600 {
     font-weight: 700;
+}
+
+@media screen and (width <= 800px) {
+    .container {
+        padding-inline: 5%;
+    }
 }
