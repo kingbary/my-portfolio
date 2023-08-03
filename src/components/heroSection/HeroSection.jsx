@@ -15,7 +15,7 @@ function HeroSection() {
         <div className={`flex f-column ${styles.hero_content}`}>
           <p>
             Skilled and motivated Front-End Engineer with a strong focus on
-            ReactJS. I'm passionate about creating dynamic and intruitive user
+            ReactJS. I'm passionate about creating dynamic and intuitive user
             interfaces.
           </p>
           <div className={`flex f-column ${styles.heading}`}>

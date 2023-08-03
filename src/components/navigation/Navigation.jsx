@@ -23,6 +23,16 @@ function Navigation() {
           alt="Kingsley Akwa's Logo"
           className={styles.logoIcon}
         />
+
+        <Link
+          to={resumeLink}
+          className="t-large"
+          target="_blank"
+          title="View my Resume"
+        >
+          My Resume
+        </Link>
+      </div>
         <div className={`flex ${styles.icon_container}`}>
           <Link to={`mailto:${emailLink}`} title="hello@kingsleyakwa.tech">
             <img src={emailIcon} alt="email-icon" />
@@ -34,15 +44,6 @@ function Navigation() {
             <img src={twitterIcon} alt="twitter-icon" />
           </Link>
         </div>
-        <Link
-          to={resumeLink}
-          className="t-large"
-          target="_blank"
-          title="View my Resume"
-        >
-          My Resume
-        </Link>
-      </div>
     </nav>
   );
 }
