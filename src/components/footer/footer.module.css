@@ -1,0 +1,37 @@
+.footer {
+  justify-content: space-between;
+}
+
+.footer_container {
+  width: 100%;
+  padding-block: 1rem;
+  justify-content: space-between;
+  border-top: 1.5px solid var(--secondary-color);
+}
+
+.footer_container p {
+  width: 25rem;
+
+  font-family: Prompt-Light;
+  font-size: clamp(0.8rem, 2vw, 2rem);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.icon_container {
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media screen and (width <= 800px) {
+  .footer_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_container p {
+    width: auto;
+    text-align: center;
+    margin-bottom: .5rem;
+  }
+}

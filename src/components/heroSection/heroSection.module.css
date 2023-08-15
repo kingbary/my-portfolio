@@ -88,6 +88,9 @@
     width: auto;
     align-items: center;
   }
+  .hero_content h1 {
+    text-align: center;
+  }
   .hero_content p {
     justify-content: center;
     text-align: center;
