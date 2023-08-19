@@ -1,0 +1,44 @@
+.project_section {
+    height: 100vh;
+    outline: 1px solid red;
+}
+
+.section_title {
+  padding-block: 1rem;
+  margin-bottom: 3rem;
+  
+  font-family: Prompt-Medium;
+  font-size: clamp(2.5rem, 2vw, 3rem);
+  text-align: center;
+}
+
+.img_slider {
+  display: flex;
+  /* overflow-x: auto; */
+  overflow: hidden;
+}
+
+.img_container {
+  overflow: hidden;
+  height: 60vh;
+  color: #d9d9d9;
+  width: clamp(70vw, calc(1vw * var(--width)), 100vw);
+  margin-left: clamp(0px, calc(1px * var(--margin)), 48px);
+}
+
+.fullview {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.fullview .img_container {
+    height: 100%;
+    width: 100vw;
+    margin-left: 0;
+}
+
+.img_container img {
+  object-fit: cover;
+  object-position: center;
+}
