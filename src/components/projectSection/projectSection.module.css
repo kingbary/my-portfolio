@@ -1,12 +1,12 @@
 .project_section {
-    height: 100vh;
-    outline: 1px solid red;
+  height: 100vh;
+  position: relative;
 }
 
 .section_title {
   padding-block: 1rem;
   margin-bottom: 3rem;
-  
+
   font-family: Prompt-Medium;
   font-size: clamp(2.5rem, 2vw, 3rem);
   text-align: center;
@@ -27,18 +27,60 @@
 }
 
 .fullview {
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .fullview .img_container {
-    height: 100%;
-    width: 100vw;
-    margin-left: 0;
+  height: 100%;
+  width: 100vw;
+  margin-left: 0;
 }
 
 .img_container img {
   object-fit: cover;
   object-position: center;
+  max-height: 100vh;
+}
+
+.button_group {
+  width: 100vw;
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.arrowBtnIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+  background-color: #ffffffb9;
+  color: #000000;
+  outline: none;
+  border: none;
+
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrowBtnIcon img {
+  width: 30px;
+}
+
+.disable {
+  visibility: hidden;
+}
+
+.auto_width {
+  width: auto !important; /** Funny innit?*/
+}
+
+.no_transform {
+  transform: translate3d(0px, 0px, 0px) !important; /** Funny innit?*/
 }

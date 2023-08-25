@@ -154,6 +154,10 @@ img {
     font-weight: 700;
 }
 
+.center-text {
+    text-align: center;
+}
+
 @media screen and (width <= 800px) {
     .container {
         padding-inline: 5%;

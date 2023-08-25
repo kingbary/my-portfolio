@@ -13,16 +13,14 @@ function ScrollingImg({ width, image }) {
   }, [width]);
 
   return (
-    <div>
-      <div className={styles.img_container} ref={imgContainer}>
-        <img
-          width={"100%"}
-          height={"100%"}
-          src={image}
-          alt=""
-          className={styles.img}
-        />
-      </div>
+    <div className={styles.img_container} ref={imgContainer}>
+      <img
+        width={"100%"}
+        height={"100%"}
+        src={image}
+        alt=""
+        className={styles.img}
+      />
     </div>
   );
 }
