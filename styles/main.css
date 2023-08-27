@@ -50,7 +50,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #4a4a4a;
   text-decoration: inherit;
 }
 
@@ -85,6 +85,10 @@ img {
 
 .t-medium {
   font-family: Prompt-Medium;
+}
+
+.t-tiny {
+  font-size: 0.8rem;
 }
 
 .t-small {
@@ -173,6 +177,14 @@ img {
 
 .mr-2 {
   margin-left: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
 }
 
 .fw-600 {

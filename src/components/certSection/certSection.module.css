@@ -4,7 +4,6 @@
   padding-block: 0.8rem;
   padding-inline: 1rem;
   justify-content: space-between;
-  transition: all 5s ease-in-out;
 }
 
 .credential_card:last-child {
@@ -35,9 +34,8 @@
   color: #4f4f4f;
 }
 
-.cred_link {
-  width: 100px;
-  min-width: fit-content;
+.cred_link_btn {
+  width: fit-content;
   justify-content: center;
 
   font-size: 0.8rem;

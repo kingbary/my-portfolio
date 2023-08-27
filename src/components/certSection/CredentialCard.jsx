@@ -30,7 +30,7 @@ function CredentialCard() {
             <div className={styles.cert_id}>
               <p>Credential ID: {certCred.credential_id}</p>
               <Link
-                className={`flex ${styles.cred_link}`}
+                className={`flex ${styles.cred_link_btn}`}
                 to={certCred.cred_link}
                 target="_blank"
               >
@@ -43,10 +43,10 @@ function CredentialCard() {
       })}
       <div className={styles.btn_container}>
         <button
-          className={`flex mt-1 btn ${styles.cred_link}`}
+          className={`flex mt-1 btn ${styles.cred_link_btn}`}
           onClick={() => setViewMore((prev) => !prev)}
         >
-          {viewMore ? "See Less" : "See More"}
+          {viewMore ? "See Less" : "See More Certificates"}
           <img
             src={viewMore ? arrowHeadUp : arrowHeadDown}
             width={"20px"}

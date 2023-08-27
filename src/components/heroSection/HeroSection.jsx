@@ -20,7 +20,7 @@ function HeroSection() {
           </p>
           <div className={`flex f-column ${styles.heading}`}>
             <h1>Front-End Engineer</h1>
-            <p>Creating unique digital experiences</p>
+            <p>I create unique digital experiences.</p>
           </div>
         </div>
       </div>
