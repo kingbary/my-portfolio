@@ -4,7 +4,7 @@ import styles from "./heroSection.module.css"
 
 function HeroSection() {
   return (
-    <section className="pad-block-2">
+    <section>
       <div className={`flex container gap-15 ${styles.section_container}`}>
         <div>
           <div className={styles.img_container}>

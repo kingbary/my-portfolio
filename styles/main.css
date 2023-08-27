@@ -4,18 +4,18 @@
 }
 
 @font-face {
-    font-family: Prompt-Light;
-    src: url(../src/assets/fonts/Prompt/Prompt-Light.ttf);
+  font-family: Prompt-Light;
+  src: url(../src/assets/fonts/Prompt/Prompt-Light.ttf);
 }
 
 @font-face {
-    font-family: Prompt-Medium;
-    src: url(../src/assets/fonts/Prompt/Prompt-Medium.ttf);
+  font-family: Prompt-Medium;
+  src: url(../src/assets/fonts/Prompt/Prompt-Medium.ttf);
 }
 
 @font-face {
-    font-family: Prompt-Bold;
-    src: url(../src/assets/fonts/Prompt/Prompt-Bold.ttf);
+  font-family: Prompt-Bold;
+  src: url(../src/assets/fonts/Prompt/Prompt-Bold.ttf);
 }
 
 @font-face {
@@ -44,122 +44,171 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #eaeaea;
+  color: #242424;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
 a:hover {
-    opacity: .9;
+  opacity: 0.8;
 }
 
 img {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .f-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .container {
-    padding-inline: 5rem;
+  padding-inline: 2rem;
+  padding-block: 1.5rem;
 }
 
 .semi-bold {
-    font-family: Prompt-SemiBold;
+  font-family: Prompt-SemiBold;
 }
 
 .bold {
-    font-family: Prompt-Bold;
+  font-family: Prompt-Bold;
 }
 
 .t-medium {
-    font-family: Prompt-Medium;
+  font-family: Prompt-Medium;
 }
 
 .t-small {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .t-large {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+  font-size: clamp(1rem, 3vw, 1.5rem);
 }
 .t-xlarge {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .t-xxlarge {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .pad-1 {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .pad-15 {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .pad-2 {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .pad-25 {
-    padding: 2.5rem;
+  padding: 2.5rem;
 }
 
 .pad-3 {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .mt-1 {
-    margin-top: 1;
+  margin-top: 1rem;
 }
 
 .pad-block-1 {
-    padding-block: 1rem;
+  padding-block: 1rem;
 }
 
 .pad-block-1 {
-    padding-block: 1rem;
+  padding-block: 1rem;
 }
 
 .pad-block-2 {
-    padding-block: 2rem;
+  padding-block: 2rem;
 }
 
 .pad-inline-1 {
-    padding-inline: 1rem;
+  padding-inline: 1rem;
 }
 
 .pad-inline-2 {
-    padding-inline: 2rem;
+  padding-inline: 2rem;
 }
 
 .gap-1 {
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .gap-15 {
-    gap: 1.5rem;
+  gap: 1.5rem;
 }
 
 .gap-2 {
-    gap: 2rem;
+  gap: 2rem;
+}
+
+.ml-h {
+  margin-left: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+.mr-1 {
+  margin-left: 1rem;
+}
+
+.mr-2 {
+  margin-left: 2rem;
 }
 
 .fw-600 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+section {
+  padding-inline: 1.5rem;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  font-family: Prompt-Medium;
+  font-size: clamp(2.5rem, 2vw, 3rem);
 }
 
 @media screen and (width <= 800px) {
-    .container {
-        padding-inline: 5%;
-    }
+  .container {
+    padding-inline: 5%;
+  }
+
+  .section-title {
+    font-size: calc(16px + 80%);
+  }
 }

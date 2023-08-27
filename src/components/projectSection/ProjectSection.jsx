@@ -77,8 +77,8 @@ function ProjectSection() {
   const isFullview = width === 100;
 
   return (
-    <section ref={sectionRef} className={styles.project_section}>
-      <h2 className={styles.section_title}>SELECTED WORKS</h2>
+    <section ref={sectionRef} className={`${styles.project_section}`}>
+      <h2 className="section-title">SELECTED WORKS</h2>
       <Carousel
         arrows={false}
         customButtonGroup={

@@ -3,15 +3,6 @@
   position: relative;
 }
 
-.section_title {
-  padding-block: 1rem;
-  margin-bottom: 3rem;
-
-  font-family: Prompt-Medium;
-  font-size: clamp(2.5rem, 2vw, 3rem);
-  text-align: center;
-}
-
 .img_slider {
   display: flex;
   /* overflow-x: auto; */

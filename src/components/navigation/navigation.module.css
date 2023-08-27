@@ -23,3 +23,9 @@
     gap: 1rem;
   }
 }
+
+@media screen and (width <= 320px) {
+  .icon_container {
+    visibility: hidden;
+  }
+}
