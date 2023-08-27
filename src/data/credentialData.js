@@ -7,6 +7,7 @@ export const certCredentials = [
     credential_id: "MQHLN59K8GUZ",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/MQHLN59K8GUZ",
+    id: 1,
   },
 
   {
@@ -16,6 +17,7 @@ export const certCredentials = [
     credential_id: "877XG3BYS9VK",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/877XG3BYS9VK",
+    id: 2,
   },
 
   {
@@ -25,6 +27,7 @@ export const certCredentials = [
     credential_id: "HTAP4XP2FXGR",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/HTAP4XP2FXGR",
+    id: 3,
   },
 
   {
@@ -34,6 +37,7 @@ export const certCredentials = [
     credential_id: "32B3JHQN9UT2",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/32B3JHQN9UT2",
+    id: 4,
   },
 
   {
@@ -43,6 +47,7 @@ export const certCredentials = [
     credential_id: "L93NNDNXSQK8",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/L93NNDNXSQK8",
+    id: 5,
   },
 
   {
@@ -52,5 +57,6 @@ export const certCredentials = [
     credential_id: "7VXQDTKAQ4XT",
     cred_link:
       "https://www.coursera.org/account/accomplishments/certificate/7VXQDTKAQ4XT",
+    id: 6,
   },
 ];

@@ -14,7 +14,7 @@ function CredentialCard() {
       {certCredentials.map((certCred, idx) => {
         if (!viewMore && idx > 3) return;
         return (
-          <div className={`flex ${styles.credential_card}`}>
+          <div className={`flex ${styles.credential_card}`} key={certCred.id}>
             <div className={`flex ${styles.sub_credential}`}>
               <img
                 src={certCred.org_logo}
