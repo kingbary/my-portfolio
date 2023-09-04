@@ -59,4 +59,14 @@ export const certCredentials = [
       "https://www.coursera.org/account/accomplishments/certificate/7VXQDTKAQ4XT",
     id: 6,
   },
+  
+  {
+    name: "Principles of UX/UI Design",
+    iss_org: "Coursera",
+    org_logo: courseraLogo,
+    credential_id: "GJ7VV9QBDH37",
+    cred_link:
+      "https://www.coursera.org/account/accomplishments/certificate/GJ7VV9QBDH37",
+    id: 7,
+  }
 ];
