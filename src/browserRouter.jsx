@@ -8,7 +8,7 @@ import Projects from "./routes/_project";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root />}>
+    <Route path="/my-portfolio" element={<Root />}>
       <Route path="projects" element={<Projects />} />
     </Route>
   )
